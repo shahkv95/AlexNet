@@ -1,0 +1,16 @@
+%The alexnet function is used to create a copy of the predefined deep network “AlexNet” in the MATLAB workspace.%
+%Loading pretrained network%
+
+deepnet = alexnet
+img1 = imread('file01.jpg');
+img2 = imread('file02.jpg');
+img3 = imread('file03.jpg');
+imshow(img1)
+imshow(img2)
+imshow(img3)
+
+%The classify function is used to make a prediction on an image.%
+
+pred1 = classify(deepnet,img1)
+pred2 = classify(deepnet,img2)
+pred3 = classify(deepnet,img3)
