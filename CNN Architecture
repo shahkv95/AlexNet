@@ -1,0 +1,31 @@
+To load the pretrained AlexNet network into MATLAB and examined its structure. 
+It can predict the content of a 227-by-227 color image from 1000 possible categories.
+
+%This code imports AlexNet.%
+
+deepnet = alexnet;
+
+%Save layers%
+
+ly = deepnet.Layers
+
+%Extract first layer%
+
+inlayer = ly(1)
+
+%Extract input size%
+
+insz = inlayer.InputSize
+
+%Extract last layer%
+
+outlayer = ly(end)
+
+%Extract class names%
+
+categorynames = outlayer.Classes 
+
+
+
+
+
