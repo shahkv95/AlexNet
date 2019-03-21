@@ -5,15 +5,15 @@ It can predict the content of a 227-by-227 color image from 1000 possible catego
 
 deepnet = alexnet;
 
-%Save layers%
+% Save layers %
 
 ly = deepnet.Layers
 
-%Extract first layer%
+% Extract first layer %
 
 inlayer = ly(1)
 
-%Extract input size%
+% Extract input size %
 
 insz = inlayer.InputSize
 
