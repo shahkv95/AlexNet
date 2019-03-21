@@ -17,15 +17,11 @@ inlayer = ly(1)
 
 insz = inlayer.InputSize
 
-%Extract last layer%
+% Extract last layer %
 
 outlayer = ly(end)
 
-%Extract class names%
+% Extract class names %
 
 categorynames = outlayer.Classes 
-
-
-
-
 
