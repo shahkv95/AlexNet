@@ -1,7 +1,7 @@
 To load the pretrained AlexNet network into MATLAB and examined its structure. 
 It can predict the content of a 227-by-227 color image from 1000 possible categories.
 
-%This code imports AlexNet.%
+% This code imports AlexNet. %
 
 deepnet = alexnet;
 
