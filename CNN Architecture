@@ -24,3 +24,4 @@ outlayer = ly(end)
 % Extract class names %
 
 categorynames = outlayer.Classes 
+
